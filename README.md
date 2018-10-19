@@ -40,7 +40,7 @@ kubectl get pods
 minikube ip
 
 Now you can access application * Url: `http://<minikube-ip>:31000`
-or `curl http://192.168.42.13:31000`
+or `curl http://192.168.42.13:31000` replace IP 192.168.42.13 with your minkube IP.
 * Reult will be.
 `Server responded with success !! `
 
