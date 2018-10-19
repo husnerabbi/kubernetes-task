@@ -20,9 +20,9 @@ minikube status
 
 ## Run App on Kubernets (minikube) environmnet.
 ```bash
-Clone below mentioned repository on your minikube host, cd into task-kubernetes directory.
-git clone https://github.com/husnerabbi/task-kubernetes.git
-cd task-kubernetes
+Clone below mentioned repository on your minikube host, cd into kubernetes-task directory.
+git clone https://github.com/husnerabbi/kubernetes-task.git
+cd kubernetes-task
 
 Run below mentiond command.
 kubectl create -f deployment.yaml
