@@ -1,0 +1,16 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: nodeweb-deployment
+spec:
+  template:
+    metadata:
+      labels:
+        app: nodeweb
+    spec:
+      containers:
+      - name: nodeweb
+        image: husnerabbi/nodeapp:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8083
